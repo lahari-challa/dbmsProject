@@ -34,7 +34,7 @@ body {
     transition: 0.25s
 }
 
-.box h1 {
+.box h1,h2 {
     color: white;
     text-transform: uppercase;
     font-weight: 500
