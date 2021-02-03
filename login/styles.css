@@ -2,20 +2,22 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: linear-gradient(to right, #b92b27, #1565c0)
+    overflow-y: scroll;
+    background:url(images/tail-middle.jpg) repeat-y center 250px;
 }
 
 .box {
     width: 500px;
     padding: 40px;
+    height: 500px;
     position: absolute;
     top: 50%;
     left: 50%;
-    background: #191919;
-    ;
+    background: linear-gradient(to right,#7EE8FA,#EEC0C6);
     text-align: center;
     transition: 0.25s;
-    margin-top: 100px
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .box input[type="text"],
@@ -34,25 +36,36 @@ body {
     transition: 0.25s
 }
 
-.box h1,h2 {
-    color: white;
+.box h1 {
+    color: black;
     text-transform: uppercase;
-    font-weight: 500
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.box h2 {
+    color: black;
+    font-size: 60px;
+    height: 50px;
+    font-family:'Sriracha', cursive;
+    margin-bottom: 50px;
 }
 
 .box input[type="text"]:focus,
 .box input[type="password"]:focus {
     width: 300px;
-    border-color: #2ecc71
+    border-color: black;
+    background: black;
 }
 
 .box input[type="submit"] {
     border: 0;
     background: none;
     display: block;
-    margin: 20px auto;
+    margin: 10px auto;
     text-align: center;
-    border: 2px solid #2ecc71;
+    border: 2px solid #3498db;
     padding: 14px 40px;
     outline: none;
     color: white;
@@ -62,11 +75,20 @@ body {
 }
 
 .box input[type="submit"]:hover {
-    background: #2ecc71
+    background: black;
 }
 
 .forgot {
     text-decoration: underline
+}
+
+.text-muted:hover {
+    color: blue;
+}
+.text-muted {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #FFFDD0;
 }
 
 ul.social-network {
