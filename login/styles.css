@@ -3,20 +3,20 @@ body {
     padding: 0;
     font-family: sans-serif;
     overflow-y: scroll;
-    background:url(tail-middle.jpg) repeat-y center 250px;
+    background:url(images/tail-middle.jpg) repeat-y center 250px;
+    width: 100%;
 }
 
 .box {
-    width: 500px;
+    width: 100%;
     padding: 40px;
-    height: 500px;
     position: absolute;
-    top: 50%;
-    left: 50%;
     background: linear-gradient(to right,#7EE8FA,#EEC0C6);
     text-align: center;
+    left: 50%;
+    top: 50%;
     transition: 0.25s;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 50px;
 }
 
@@ -31,7 +31,7 @@ body {
     padding: 10px 10px;
     width: 250px;
     outline: none;
-    color: white;
+    color: #EE224A;
     border-radius: 24px;
     transition: 0.25s
 }
@@ -154,3 +154,4 @@ a.socialIcon:hover,
     transition: all 0.8s;
     transition: all 0.8s
 }
+
