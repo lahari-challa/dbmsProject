@@ -463,13 +463,12 @@ footer .footerlink {
 a {
 	outline:none;
 }
- .heading {
+.heading {
     font-size: 20px;
     text-align: center;
 	font-weight: bold;
-	padding-top: 200px;
 }
-/*
+
 .logo2 {
     width: 100px;
     height: 100px;
@@ -499,4 +498,5 @@ a {
     .logo2 {
         margin: 20px 25px 10px 20px;
     }
-} */
+} 
+
