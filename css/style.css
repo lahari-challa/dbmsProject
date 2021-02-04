@@ -234,14 +234,7 @@ a:hover {
 h1 {
 	text-indent:-9999px;
 }
-h1 a {
-	width:473px;
-	height:63px;
-	position:absolute;
-	left:0;
-	top:104px;
-	background:url(../images/logo.jpg) no-repeat left top;
-}
+
 h2 {
 	font-size:24px;
 	line-height:1.2em;
