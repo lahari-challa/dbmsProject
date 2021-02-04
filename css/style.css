@@ -109,32 +109,6 @@ fieldset {
 .categories li a:hover {
 	color:#ff7b01;
 }
-
-.articles {
-	margin-top:-18px;
-}
-.articles li {
-	width:100%;
-	overflow:hidden;
-	vertical-align:top;
-	line-height:1.429em;
-	padding-top:18px;
-}
-.articles li img {
-	float:left;
-	margin-right:22px;
-}
-.sitemap {
-	padding-bottom:15px;
-}
-.sitemap li {
-	padding:0 0 5px 16px;
-	background:url(../images/marker1.gif) no-repeat left 5px;
-}
-.sitemap li ul {
-	padding-top:5px;
-	margin-bottom:-5px;
-}
 .list {
 	width:100%;
 	overflow:hidden;
@@ -177,52 +151,6 @@ p {
 }
 .p0 {
 	margin:0;
-}
-.address {
-	width:100%;
-	overflow:hidden;
-	padding-bottom:40px;
-}
-.address address {
-	font-style:normal;
-	line-height:1.429em;
-	float:left;
-	width:248px;
-}
-.address address strong {
-	color:#008cc4;
-	width:94px !important;
-	width:91px;
-	float:left;
-}
-.address .extra-wrap {
-	float:left;
-	width:385px;
-}
-.address p {
-	margin:0;
-}
-#banner {
-	width:691px;
-	height:299px;
-	background:url(../images/banner-bg.jpg) no-repeat left top;
-}
-#banner h2 {
-	color:#fff;
-	font-size:42px;
-	text-transform:none;
-	line-height:1.2em;
-	padding:75px 0 0 55px;
-	margin:0;
-}
-#banner h2 span {
-	display:block;
-	margin-top:-12px;
-	color:#fff;
-}
-#banner h2 span span {
-	font-size:30px;
-	margin-top:-8px;
 }
 a {
 	color:#ff7b01;
@@ -337,86 +265,6 @@ header nav ul li a.m5 {
 }
 header nav ul li.current a.m5 {
 	background-image:url(../images/m5-act.jpg);
-}
-#content .inside {
-	padding:22px 20px 0 29px;
-}
-#content .inner_copy, #content .inner_copy a {
-	border:0;
-	float:right;
-	background:#000;
-	color:#ff7b01;
-	width:100%;
-	line-height:10px;
-	font-size:10px;
-	margin:-50% 0 0 0;
-	padding:0;
-}
-#search-form .rowElem {
-	height:28px;
-	position:absolute;
-	right:0;
-	top:113px;
-}
-#search-form input {
-	width:205px;
-	background:#fff;
-	padding:4px 5px 4px 5px;
-	border:1px solid #d0d0d0;
-	border-right:0;
-	color:#454545;
-	line-height:1.2em;
-	float:left;
-	height:18px;
-}
-#search-form a {
-	text-transform:uppercase;
-	color:#fff;
-	text-decoration:none;
-	float:left;
-	background-color:#0087c1;
-	padding:6px 11px 0 11px;
-	height:22px;
-}
-#search-form a:hover {
-	background-color:#47b6e5;
-}
-
-#contacts-form {
-	clear:right;
-	width:100%;
-	overflow:hidden;
-}
-#contacts-form fieldset {
-	border:none;
-	float:left;
-}
-#contacts-form .field {
-	clear:both;
-	height:30px;
-}
-#contacts-form .field.extra {
-	height:268px;
-}
-#contacts-form label {
-	float:left;
-	width:123px;
-	font-weight:bold;
-	color:#008cc4;
-}
-#contacts-form input {
-	width:277px;
-	padding:2px 0 2px 3px;
-	border:1px solid #d1d1d1;
-	color:#70635b;
-}
-#contacts-form textarea {
-	width:503px;
-	height:252px;
-	padding:2px 0 2px 3px;
-	border:1px solid #d1d1d1;
-	color:#70635b;
-	overflow:auto;
 }
 footer {
 	background:url(../images/footer-bg.png) no-repeat center top;
