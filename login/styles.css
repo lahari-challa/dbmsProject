@@ -3,23 +3,34 @@ body {
     padding: 0;
     font-family: sans-serif;
     overflow-y: scroll;
-    background:url(../images/tail-middle.jpg) repeat-y center 250px;
+    background:url(tail-middle.jpg) repeat-y center 250px;
     width: 100%;
+    height: 750px;
 }
 
 h1{
     text-align: center;
 }
 
-span{
-    font-size: 40px;
+.heading {
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
 }
-
+.logo2 {
+    width: 100px;
+    height: 100px;
+    margin: 20px 25px 10px 80px;
+}
+.logo1 {
+    width: 100px;
+    height: 100px;
+    margin: 20px 15px 10px 20px;
+}
 .box {
     width: 100%;
-    padding: 40px;
+    display: block;
+    padding: 30px;
     position: absolute;
     background: linear-gradient(to right,#7EE8FA,#EEC0C6);
     text-align: center;
@@ -164,4 +175,23 @@ a.socialIcon:hover,
     transition: all 0.8s;
     transition: all 0.8s
 }
-
+@media (max-width: 1000px) {
+    .heading {
+        font-size: 20px;
+    }
+    .logo1 {
+    width: 80px;
+    height: 100px;
+    margin: 10px 15px 10px 10px;
+}
+    .logo2 {
+    width: 100px;
+    height: 100px;
+    margin: 10px 20px 10px 20px;
+}
+}
+@media (min-width: 1500px) {
+    .logo2 {
+        margin: 20px 25px 10px 220px;
+    }
+}
