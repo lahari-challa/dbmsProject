@@ -236,7 +236,7 @@ h1 {
 }
 
 h2 {
-	font-size:24px;
+	font-size: 24px;
 	line-height:1.2em;
 	text-transform:uppercase;
 	margin-bottom:20px;
@@ -467,8 +467,6 @@ a {
     font-size: 20px;
     text-align: center;
 	font-weight: bold;
-	padding-top: 50px;
-	margin-top: 50px;
 }
 
 .logo2 {
@@ -504,4 +502,7 @@ a {
 .profile{
 	width:100px;
 	height:100px;
+}
+.details{
+	margin-left: 400px;
 }
