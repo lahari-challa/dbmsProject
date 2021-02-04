@@ -1,10 +1,5 @@
-article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {
-	display:block;
-}
-mark, rp, rt, ruby, summary, time {
-	display:inline;
-}
 body {
+	width:100%;
 	background:#fff;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:100%;
@@ -311,21 +306,40 @@ footer .footerlink {
 a {
 	outline:none;
 }
-.heading {
-    font-size: 20px;
-    text-align: center;
-	font-weight: bold;
+.head{
+
+  background-color: #5f5f5f;    
+  text-align: center;
 }
 
+.inner{
+	width:70%;
+    margin:auto;
+    background-color: #4db6e0;  
+	
+}
+
+.h{
+	font-size:17px;
+	color:black;
+	height:100%;
+	vertical-align:middle;
+	text-align: center;
+	font-weight: bold;
+	border-style:dotted;
+	border-color:blue;
+}
 .logo2 {
-    width: 100px;
-    height: 100px;
-    margin: 20px 25px 10px 80px;
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    margin-right:20px;
 }
 .logo1 {
-    width: 100px;
-    height: 100px;
-    margin: 20px 15px 10px 20px;
+    width: 60px;
+    height: 60px;
+    margin-top: 0px;
+    margin-left:20px;
 }
 @media (max-width: 1000px) {
     .heading {
