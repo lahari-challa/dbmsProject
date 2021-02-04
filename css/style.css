@@ -109,24 +109,7 @@ fieldset {
 .categories li a:hover {
 	color:#ff7b01;
 }
-.news {
-	margin-top:-25px;
-}
-.news li {
-	padding-top:25px;
-	line-height:1.429em;
-}
-.news li strong {
-	font-size:.857em;
-	color:#454545;
-	display:block;
-	padding-bottom:3px;
-}
-.news li a {
-	color:#008cc4;
-	text-decoration:none;
-	font-weight:bold;
-}
+
 .articles {
 	margin-top:-18px;
 }
@@ -405,47 +388,7 @@ header nav ul li.current a.m5 {
 #search-form a:hover {
 	background-color:#47b6e5;
 }
-#newsletter-form {
-	padding-bottom:45px;
-}
-#newsletter-form fieldset {
-	background:url(../images/newsletter-bg.gif) no-repeat left top;
-	width:219px;
-	height:131px;
-	overflow:hidden;
-}
-#newsletter-form .rowElem {
-	padding:13px 19px 0 17px;
-}
-#newsletter-form input {
-	border:1px solid #0086b5;
-	background:#fff;
-	color:#8e8e8e;
-	font-size:.857em;
-	padding:2px 5px 2px 5px;
-	width:171px;
-	margin-bottom:13px;
-}
-#newsletter-form h2 {
-	color:#fff;
-	margin-bottom:13px;
-}
-#newsletter-form a.fleft {
-	color:#fff;
-	position:relative;
-	top:3px;
-}
-#newsletter-form a.fright {
-	display:block;
-	color:#fff;
-	border:1px solid #26b6e8;
-	text-decoration:none;
-	background-color:#006caa;
-	padding:2px 11px 3px 11px;
-}
-#newsletter-form a.fright:hover {
-	border-color:#fff;
-}
+
 #contacts-form {
 	clear:right;
 	width:100%;
