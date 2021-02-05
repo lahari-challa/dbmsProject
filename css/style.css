@@ -64,7 +64,7 @@ aside {
 	height:auto !important;
 	height:100%;
 	min-height:100%;
-	background:url(../images/tail-middle.jpg) repeat-y center 194px;
+	background:url(../images/wall.jpg) repeat-y center 194px;
 	min-width:940px;
 }
 input, select, textarea {
@@ -306,10 +306,11 @@ footer .footerlink {
 a {
 	outline:none;
 }
-.heading {
+#heading {
     font-size: 39px;
     text-align: center;
 	font-weight: bold;
+	margin:auto;
 		}
 .head{
 
@@ -334,15 +335,18 @@ a {
 	border-style:dotted;
 	border-color:blue;
 }
+ 
 .logo2 {
  	width: 100px;
     height: 100px;
     margin: 20px 25px 10px 80px;
+	align-items: flex-start;
 }
 .logo1 {
     width: 100px;
     height: 100px;
     margin: 20px 15px 10px 20px;
+	align-items: flex-end;
 }
 @media (max-width: 1000px) {
     .heading {
@@ -363,7 +367,10 @@ a {
     .logo2 {
         margin: 20px 25px 10px 20px;
     }
-} 
+}  
+.heading{
+	text-align: center;
+}
 .profile{
 	width:100px;
 	height:100px;
@@ -371,4 +378,8 @@ a {
 .details{
 	margin-left: 50%;
 
+}
+.flexbox{
+	display: flex;
+	height: 130px;
 }
