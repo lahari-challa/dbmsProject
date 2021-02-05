@@ -92,6 +92,7 @@ fieldset {
 	margin:0;
 }
 .categories li span {
+	font-style: italic;
 	display:block;
 	padding-left:15px;
 	height:1%;
@@ -99,7 +100,7 @@ fieldset {
 }
 .categories li a {
 	text-decoration:none;
-	color:#008cc4;
+	color:#0067a7;
 }
 .categories li a:hover {
 	color:#ff7b01;
@@ -306,6 +307,17 @@ footer .footerlink {
 a {
 	outline:none;
 }
+.ems{
+	text-align:left;
+	font-family: "Lucida Handwriting", cursive;
+    font-size:30px;
+	color:#a8dbea;
+	margin-bottom:20px;
+	margin-left:250px;
+	background-image:url(../images/bg.jpg);  
+
+
+}
 #heading {
 	font-family:audrey;
     font-size: 39px;
@@ -317,28 +329,15 @@ a {
 	border:5px outset #d2d2d2;
 
 		}
-.head{
-
-  background-color: #5f5f5f;    
-  text-align: center;
-}
-
-.inner{
-	width:70%;
-    margin:auto;
-    background-color: #4db6e0;  
-	
-}
-
-.h{
-	font-size:17px;
+.prof{
+	text-align:left;
+	font-family: "Lucida Handwriting", cursive;
+    font-size: 20px;
 	color:black;
-	height:100%;
-	vertical-align:middle;
-	text-align: center;
-	font-weight: bold;
-	border-style:dotted;
-	border-color:blue;
+	margin-bottom:px
+	margin-left:250px;
+	
+
 }
  
 #logo2 {
@@ -382,12 +381,16 @@ a {
 	float: right;
 }
 .details{
-	margin-left: 10%;
+	font-style: italic;
+	font-variant: small-caps;
+	margin-left: 250px;
+	
 
 }
 .flexbox{
 	display: flex;
 	height: 130px;
+	margin-bottom:40px;
 }
 label {
 	color: black;
