@@ -377,17 +377,12 @@ a {
 	float: right;
 }
 .details{
-<<<<<<< HEAD
 	margin-left: 10%;
-	
-=======
-	margin-left: 50%;
 
 }
 .flexbox{
 	display: flex;
 	height: 130px;
->>>>>>> 21a15e3fc7b3ab1bf82d973f9462f9dff7cc4ea2
 }
 label {
 	color: black;
