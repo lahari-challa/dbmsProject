@@ -92,6 +92,7 @@ fieldset {
 	margin:0;
 }
 .categories li span {
+	font-style: italic;
 	display:block;
 	padding-left:15px;
 	height:1%;
@@ -99,7 +100,7 @@ fieldset {
 }
 .categories li a {
 	text-decoration:none;
-	color:#008cc4;
+	color:#0067a7;
 }
 .categories li a:hover {
 	color:#ff7b01;
@@ -306,34 +307,37 @@ footer .footerlink {
 a {
 	outline:none;
 }
+.ems{
+	text-align:left;
+	font-family: "Lucida Handwriting", cursive;
+    font-size:30px;
+	color:#a8dbea;
+	margin-bottom:20px;
+	margin-left:250px;
+	background-image:url(../images/bg.jpg);  
+
+
+}
 #heading {
+	font-family:audrey;
     font-size: 39px;
     text-align: center;
-	font-weight: bold;
+	color:#00487b;
 	margin:auto;
+	padding:30px;
+	background-color:#d3d6d6;
+	border:5px outset #d2d2d2;
+
 		}
-.head{
-
-  background-color: #5f5f5f;    
-  text-align: center;
-}
-
-.inner{
-	width:70%;
-    margin:auto;
-    background-color: #4db6e0;  
-	
-}
-
-.h{
-	font-size:17px;
+.prof{
+	text-align:left;
+	font-family: "Lucida Handwriting", cursive;
+    font-size: 20px;
 	color:black;
-	height:100%;
-	vertical-align:middle;
-	text-align: center;
-	font-weight: bold;
-	border-style:dotted;
-	border-color:blue;
+	margin-bottom:px
+	margin-left:250px;
+	
+
 }
  
 #logo2 {
@@ -380,6 +384,7 @@ a {
 	float: right;
 }
 .details{
+
     margin: 10px;
 	font-family: cursive;
 	font-style: italic;
@@ -391,7 +396,7 @@ a {
 .flexbox{
 	display: flex;
 	height: 130px;
->>>>>>> 21a15e3fc7b3ab1bf82d973f9462f9dff7cc4ea2
+	margin-bottom:40px;
 }
 label {
 	color: black;
@@ -399,8 +404,18 @@ label {
 	font-size: 20px;
 }
 
+
 #profile{
 	font-weight:800;
 	font-family:cursive;
     font-size: 40px;
 }
+
+@media (max-width:1440px){
+    #heading{
+		/* height: auto; */
+	font-size: 28px;
+	/* padding-bottom: 15px; */
+	}
+}
+
