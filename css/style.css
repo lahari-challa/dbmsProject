@@ -334,9 +334,9 @@ a {
 	font-family: "Lucida Handwriting", cursive;
     font-size: 20px;
 	color:black;
-	margin-bottom:px
+	/* margin-bottom:px
 	margin-left:250px;
-	
+	 */
 
 }
  
@@ -389,8 +389,6 @@ a {
 	font-family: cursive;
 	font-style: italic;
 	margin-left: 10%;
-     =====
-	margin-left: 50%;
 
 }
 .flexbox{
