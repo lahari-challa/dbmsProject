@@ -174,9 +174,9 @@ h3 {
 	margin-bottom:20px;
 }
 h4 {
-	font-size:1em;
+	font-size:1.5em;
 	color:#008cc4;
-	margin-bottom:5px;
+	text-align: left;
 }
 h4 a {
 	color:#008cc4;
@@ -374,14 +374,25 @@ a {
 .profile{
 	width:100px;
 	height:100px;
+	float: right;
 }
 .details{
+<<<<<<< HEAD
+	margin-left: 10%;
+	
+=======
 	margin-left: 50%;
 
 }
 .flexbox{
 	display: flex;
 	height: 130px;
+>>>>>>> 21a15e3fc7b3ab1bf82d973f9462f9dff7cc4ea2
+}
+label {
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
 }
 @media (max-width:1440px){
     #heading{
