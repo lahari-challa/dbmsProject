@@ -174,9 +174,9 @@ h3 {
 	margin-bottom:20px;
 }
 h4 {
-	font-size:1em;
+	font-size:1.5em;
 	color:#008cc4;
-	margin-bottom:5px;
+	text-align: left;
 }
 h4 a {
 	color:#008cc4;
@@ -367,8 +367,14 @@ a {
 .profile{
 	width:100px;
 	height:100px;
+	float: right;
 }
 .details{
-	margin-left: 50%;
+	margin-left: 10%;
 	
+}
+label {
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
 }
