@@ -383,3 +383,10 @@ a {
 	display: flex;
 	height: 130px;
 }
+@media (max-width:1440px){
+    #heading{
+		/* height: auto; */
+	font-size: 28px;
+	/* padding-bottom: 15px; */
+	}
+}
