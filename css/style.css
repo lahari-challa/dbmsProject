@@ -307,10 +307,15 @@ a {
 	outline:none;
 }
 #heading {
+	font-family:audrey;
     font-size: 39px;
     text-align: center;
-	font-weight: bold;
+	color:#00487b;
 	margin:auto;
+	padding:30px;
+	background-color:#d3d6d6;
+	border:5px outset #d2d2d2;
+
 		}
 .head{
 
