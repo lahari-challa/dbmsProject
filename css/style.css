@@ -349,41 +349,42 @@ a {
 	align-items: flex-end;
 }
 @media (max-width: 1000px) {
-    /* .heading {
+    .heading {
         font-size: 20px;
-    } */
-    /* #logo1 {
+    } 
+     #logo1 {
     width: 80px;
     height: 100px;
     margin: 10px 15px 10px 10px;
-} */
-    /* #logo2 {
+}
+    #logo2 {
     width: 100px;
     height: 100px;
     margin: 10px 20px 10px 20px;
-} */
 }
-/* @media (min-width: 1500px) {
+}
+@media (min-width: 1500px) {
     #logo2 {
         margin: 20px 25px 10px 20px;
     }
-}   */
+}   
  .heading{
 	
 	text-align: center;
 } 
 .profile_pic{
-	width:150px;
-	height:150px;
-	margin-right: 140px;
+	 border-radius: 40px;
+	width:160px;
+	height:160px;
+	margin-right: 120px;
 	float: right;
 }
 .details{
     margin: 10px;
+	font-family: cursive;
 	font-style: italic;
-	<< HEAD
 	margin-left: 10%;
-	=====
+     =====
 	margin-left: 50%;
 
 }
