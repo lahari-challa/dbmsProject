@@ -64,7 +64,9 @@ aside {
 	height:auto !important;
 	height:100%;
 	min-height:100%;
-	background:url(../images/wall.jpg) repeat-y center 194px;
+	background:url(../images/trail2.jpg) no-repeat;
+	background-size: 2000px;
+	background-attachment:fixed;
 	min-width:940px;
 }
 input, select, textarea {
@@ -100,7 +102,8 @@ fieldset {
 }
 .categories li a {
 	text-decoration:none;
-	color:#0067a7;
+	 color:#0067a7;
+	/* color: rgb(146, 163, 240); */
 }
 .categories li a:hover {
 	color:#ff7b01;
@@ -159,7 +162,7 @@ h1 {
 	text-indent:-9999px;
 }
 
-h2 {
+/* h2 {
 	font-size: 2em;
 	line-height:1.5em;
 	text-transform:uppercase;
@@ -167,7 +170,7 @@ h2 {
 }
 h2 span {
 	color:#8d8d8d;
-}
+} */
 h3 {
 	font-size:20px;
 	line-height:1.6em;
@@ -183,9 +186,9 @@ h4 a {
 	color:#008cc4;
 	text-decoration:none;
 }
-h4 a:hover {
+/* h4 a:hover {
 	color:#ff7b01;
-}
+} */
 .txt1 {
 	color:#008cc4;
 	font-weight:bold;
@@ -294,7 +297,7 @@ footer .footerlink {
 	background-color:transparent;
 }
 .footerlink a:hover {
-	color:#454545;
+	color: #454545;;
 	background-color:transparent;
 	text-decoration:none;
 }
@@ -314,9 +317,7 @@ a {
 	color:#a8dbea;
 	margin-bottom:20px;
 	margin-left:250px;
-	background-image:url(../images/bg.jpg);  
-
-
+	background-image:url(../images/bg.jpg); 
 }
 #heading {
 	font-family:audrey;
@@ -329,7 +330,7 @@ a {
 	border:5px outset #d2d2d2;
 
 		}
-.prof{
+/* .prof{
 	text-align:left;
 	font-family: "Lucida Handwriting", cursive;
     font-size: 20px;
@@ -338,7 +339,7 @@ a {
 	margin-left:250px;
 	
 
-}
+} */
  
 #logo2 {
  	width: 100px;
@@ -373,8 +374,12 @@ a {
     }
 }   
  .heading{
-	
+	/* line-height:1.5em; */
+	margin-bottom:20px;
+	 font-size:30px;
 	text-align: center;
+	color: rgb(12 73 74);
+	font-weight: 600;
 } 
 .profile_pic{
 	 border-radius: 40px;
@@ -384,13 +389,19 @@ a {
 	float: right;
 }
 .details{
-
+    height: 566px;
+	width: 674px;
     margin: 10px;
+	background-color: rgb(104 130 115 / 14%);
+	padding-top: 10px;
+	padding-left: 26px;
+	border-radius: 21px 26px 26px 21px;
+	font-display: rgb(25 174 234);
 	font-family: cursive;
 	font-style: italic;
-	margin-left: 10%;
-     =====
-	margin-left: 50%;
+	margin-left: 26%;
+     /* =====
+	margin-left: 50%; */
 
 }
 .flexbox{
@@ -399,13 +410,15 @@ a {
 	margin-bottom:40px;
 }
 label {
-	color: black;
+	color: rgb(12, 71, 66);
 	font-weight: bold;
 	font-size: 20px;
 }
 
-
 #profile{
+	/* color: rgb(25 174 234); */
+	/* color: rgb(6 46 143); */
+	color: rgb(12 73 74);
 	font-weight:800;
 	font-family:cursive;
     font-size: 40px;
