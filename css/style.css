@@ -412,7 +412,7 @@ label {
 	font-size: 20px;
 }
 
-#profile{
+.profile{
 	/* color: rgb(25 174 234); */
 	/* color: rgb(6 46 143); */
 	color: rgb(12 73 74);
@@ -486,4 +486,5 @@ label {
     text-align: center;
     font-size: 34px;
 }
-}
+
+
