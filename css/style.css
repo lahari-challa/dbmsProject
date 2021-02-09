@@ -392,7 +392,7 @@ a {
 	width: auto;
     margin: 10px;
 	background-color: rgb(104 130 115 / 14%);
-	padding-top: 10px;
+	padding-top: 28px;
 	padding-left: 26px;
 	border-radius: 21px 26px 26px 21px;
 	font-display: rgb(25 174 234);
@@ -481,10 +481,8 @@ label {
 	}
 }
 
-#add{
-	color: #1d4d52;
-    text-align: center;
-    font-size: 34px;
-}
+textarea{
 
+	border-radius: 13px;
+}
 
