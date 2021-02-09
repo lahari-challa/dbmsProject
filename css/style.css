@@ -388,8 +388,8 @@ a {
 	float: right;
 }
 .details{
-    height: 650px;
-	width: 674px;
+    height: auto;
+	width: auto;
     margin: 10px;
 	background-color: rgb(104 130 115 / 14%);
 	padding-top: 10px;
@@ -457,6 +457,17 @@ label {
 }
 #edit {
   color: black;
+  padding: 10px 32px;
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  float: center;
+  cursor: pointer;
+}
+#save {
+	color: black;
   padding: 10px 32px;
   text-align: center;
   font-weight: bold;
