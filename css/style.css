@@ -69,12 +69,12 @@ aside {
 	background-attachment:fixed;
 	min-width:940px;
 }
-input, select, textarea {
+/* input, select, textarea {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:1em;
 	vertical-align:middle;
 	font-weight:normal;
-}
+} */
 fieldset {
 	border:0;
 }
@@ -398,13 +398,8 @@ a {
 	font-display: rgb(25 174 234);
 	font-family: cursive;
 	font-style: italic;
-
 	margin-left: 26%;
-     /* =====
-	margin-left: 50%; */
-
-
-
+	padding-bottom: 22px;
 }
 .flexbox{
 	display: flex;
@@ -486,3 +481,9 @@ label {
 	}
 }
 
+#add{
+	color: #1d4d52;
+    text-align: center;
+    font-size: 34px;
+}
+}
