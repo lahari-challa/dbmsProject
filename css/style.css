@@ -388,8 +388,8 @@ a {
 	float: right;
 }
 .details{
-    height: 650px;
-	width: 674px;
+    height: auto;
+	width: auto;
     margin: 10px;
 	background-color: rgb(104 130 115 / 14%);
 	padding-top: 10px;
