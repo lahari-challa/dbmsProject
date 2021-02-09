@@ -466,6 +466,17 @@ label {
   float: center;
   cursor: pointer;
 }
+#save {
+	color: black;
+  padding: 10px 32px;
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  float: center;
+  cursor: pointer;
+}
 
 @media (max-width:1440px){
     #heading{

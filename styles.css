@@ -95,6 +95,12 @@ h1{
     transition: 0.25s;
     cursor: pointer
 }
+.admin {
+    float: left;
+}
+.employee {
+    float: right;
+}
 
 .box input[type="button"]:hover {
     background: black;
