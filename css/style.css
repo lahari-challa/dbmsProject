@@ -382,9 +382,9 @@ a {
 } 
 .profile_pic{
 	 border-radius: 40px;
-	width:160px;
-	height:160px;
-	margin-right: 120px;
+	width:130px;
+	height:130px;
+	margin-right: 20px;
 	float: right;
 }
 .details{
@@ -424,6 +424,47 @@ label {
 	font-weight:800;
 	font-family:cursive;
     font-size: 40px;
+}
+#search-form .rowElem {
+	height:28px;
+	position:absolute;
+	right:0;
+	top:125px;
+}
+#search-form input {
+	width:205px;
+	background:#fff;
+	padding:4px 5px 4px 5px;
+	float: left;
+	border:1px solid #d0d0d0;
+	border-right:0;
+	color:#454545;
+	line-height:1.2em;
+	float:left;
+	height:18px;
+}
+#search-form a {
+	text-transform:uppercase;
+	color:#fff;
+	text-decoration:none;
+	float:left;
+	background-color:#0087c1;
+	padding:6px 11px 0 11px;
+	height:22px;
+}
+#search-form a:hover {
+	background-color:#47b6e5;
+}
+#edit {
+  color: black;
+  padding: 10px 32px;
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  float: center;
+  cursor: pointer;
 }
 
 @media (max-width:1440px){

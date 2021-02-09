@@ -4,14 +4,14 @@
 <head>
   <title>Employee Management System</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
-  <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-  <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
-  <script type="text/javascript" src="js/cufon-yui.js"></script>
-  <script type="text/javascript" src="js/cufon-replace.js"></script>
-  <script type="text/javascript" src="js/Myriad_Pro_300.font.js"></script>
-  <script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
+  <link rel="stylesheet" href="../css/reset.css" type="text/css" media="all">
+  <link rel="stylesheet" href="../css/style.css" type="text/css" media="all">
+  <script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="../js/cufon-yui.js"></script>
+  <script type="text/javascript" src="../js/cufon-replace.js"></script>
+  <script type="text/javascript" src="../js/Myriad_Pro_300.font.js"></script>
+  <script type="text/javascript" src="../js/Myriad_Pro_400.font.js"></script>
+  <script type="text/javascript" src="../js/script.js"></script>
   <!--[if lt IE 7]>
 <link rel="stylesheet" href="css/ie6.css" type="text/css" media="screen">
 <script type="text/javascript" src="js/ie_png.js"></script>
@@ -24,10 +24,17 @@
   <!-- START PAGE SOURCE -->
   <div class="wrap">
     <div class="flexbox">
-      <div><img id="logo2" src="./images/logo2.png"></div>
+      <div><img id="logo2" src="../images/logo2.png"></div>
       <div id="heading">NATIONAL INSTITUTE OF TECHNOLOGY, ANDHRA PRADESH</div>
-      <div><img id="logo1" src="./images/logo1.png"></div>
+      <div><img id="logo1" src="../images/logo1.png"></div>
     </div>
+        <form action="#" id="search-form">
+        <fieldset>
+          <div class="rowElem">
+            <input type="text" placeholder="Employee code">
+            <a href="#">Search</a></div>
+        </fieldset>
+      </form>
     <div class="container">
       <aside>
         <h3>Home page</h3>
@@ -56,7 +63,7 @@
       <div class = "details">
         <h2 class="heading">EMPLOYEE MANAGEMENT SYSTEM</h2><br><br>
         <h4 id="profile"> Profile </h4><br>
-      <img class="profile_pic" src="./images/profile.png" alt="profile.pic"><br><br><br>
+      <img class="profile_pic" src="../images/profile.png" alt=""><br><br><br>
       <!-- <label> First Name: </label>
       <input type="text" name="firstname" size="15" disabled /> <br> <br><br><br>
       <label> Middle Name: </label>
@@ -75,6 +82,7 @@
       <input type="Date" name="Date" disabled /> <br> <br><br><br>
       <label> Address: </label>
       <input type="text" name="Address" disabled /> <br> <br><br><br>
+      <button type="button" id="edit">Edit</button>
       </div>
     </div>
   </div>
