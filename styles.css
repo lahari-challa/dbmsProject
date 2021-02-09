@@ -81,7 +81,7 @@ h1{
     background: black;
 }
 
-.box input[type="submit"] {
+.box input[type="button"] {
     border: 0;
     background: none;
     display: block;
@@ -96,7 +96,7 @@ h1{
     cursor: pointer
 }
 
-.box input[type="submit"]:hover {
+.box input[type="button"]:hover {
     background: black;
     color: white;
 }
