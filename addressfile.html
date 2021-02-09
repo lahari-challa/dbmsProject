@@ -1,15 +1,28 @@
-<!DOCTYPE HTML>
-<html lang = "en">
-  <head>
-    <title>address details</title>
-    <meta charset = "UTF-8" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-    <style type = "text/css">
-    
-    </style>
-  </head>
-  <body>
-    <div class="wrap">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Employee Management System</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+  <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="js/cufon-yui.js"></script>
+  <script type="text/javascript" src="js/cufon-replace.js"></script>
+  <script type="text/javascript" src="js/Myriad_Pro_300.font.js"></script>
+  <script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <!--[if lt IE 7]>
+<link rel="stylesheet" href="css/ie6.css" type="text/css" media="screen">
+<script type="text/javascript" src="js/ie_png.js"></script>
+<script type="text/javascript">ie_png.fix('.png, footer, header nav ul li a, .nav-bg, .list li img');</script>
+<![endif]-->
+  <!--[if lt IE 9]><script type="text/javascript" src="js/html5.js"></script><![endif]-->
+</head>
+
+<body id="page1">
+  <!-- START PAGE SOURCE -->
+  <div class="wrap">
     <div class="flexbox">
       <div><img id="logo2" src="./images/logo2.png"></div>
       <div id="heading">NATIONAL INSTITUTE OF TECHNOLOGY, ANDHRA PRADESH</div>
@@ -17,13 +30,13 @@
     </div>
     <div class="container">
       <aside>
-        <!-- <h3>Home page</h3> -->
+        <h3>Address page</h3>
         <ul class="categories">
           <li><span><a href="employee.html">Employee Details</a></span></li>
           <li><span><a href="personaldetails.html">Personal Details</a></span></li>
           <li><span><a href="placeofbirth.htm">Place of Birth</a></span></li>
           <li><span><a href="#">Address</a></span></li>
-          <li><span><a href="#">Educational Qualifications</a></span></li>
+          <li><span><a href="EducationalQualifications.htm">Educational Qualifications</a></span></li>
           <li><span><a href="#">Previous Experience</a></span></li>
           <li><span><a href="#">Account Details</a></span></li>
           <li><span><a href="#">Family Details</a></span></li>
@@ -37,12 +50,23 @@
         </ul>
       </aside>
       <div class = "details">
-        <h3 id ="add">Address Details</h2><br>
-          <h3>Permanent Address</h2>
-          <textarea name="PermanentAddress " cols="60" rows="10" disabled></textarea>
-          <h3>Present Address</h2>
+        <h4>Address</h4><br><br>
+        <label>Permanent Address</label><br><br><br><br>
+          <textarea name="PermanentAddress " cols="60" rows="10" disabled></textarea><br><br>
+          <label>Present Address</label><br><br>
           <textarea name="PresentAddress " cols="60" rows="10" disabled></textarea><br>
-    </div> 
+      </div>
+    </div>
   </div>
-  </body>
+    <footer>
+      <div class="footerlink">
+        <p class="lf">Copyright &copy; 2021 <a href="#">NIT Andhra Pradesh</a> - All Rights Reserved</p>
+        <p class="rf">Design by <a href=" ">Students</a></p>
+        <div style="clear:both;"></div>
+      </div>
+    </footer>
+    <script type="text/javascript"> Cufon.now(); </script>
+    <!-- END PAGE SOURCE -->
+</body>
+
 </html>
