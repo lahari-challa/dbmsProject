@@ -18,6 +18,7 @@ html, body {
 	overflow:hidden;
 	font-size:.875em;
 	padding-bottom:176px;
+	margin-left: 13%;
 }
 header {
 	background:url(../images/header-bg.jpg) no-repeat center top;
@@ -485,4 +486,28 @@ textarea{
 
 	border-radius: 13px;
 }
-
+div a{
+	text-decoration: none;
+	color: black;
+}
+div a:hover{
+	color:rgb(216, 32, 32) ;
+}
+#logout{
+	margin-right:5%;
+	text-align: right;	
+	font-weight: bold;
+	font-size: larger;
+	font-display: rgb(25 174 234);
+	font-style: italic;
+	font-style: inherit;
+    background-color: #d2d2d2;
+	float :right;
+	width: fit-content;
+	padding: 5px 10px;
+	border-radius: 2rem;
+	/* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+#logout:hover{
+	background-color: black;
+}
