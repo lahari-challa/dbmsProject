@@ -511,3 +511,23 @@ div a:hover{
 #logout:hover{
 	background-color: black;
 }
+.btn btn-primary btn-lg{
+	text-align: center;
+}
+.appview{
+	text-align: center;
+	margin-left: 45%;
+	width: 150px;
+	box-sizing: border-box;
+	font-size: x-large;
+	background-color: #1fc0cc;
+	color: #330822;
+	font-weight: bold;
+	font-style: inherit;
+	padding: 15px 15px 15px 15px;
+	border-radius: 2rem;
+}
+.appview:hover{
+	background-color: #e2111c;
+	color: #a8dbea;
+}
