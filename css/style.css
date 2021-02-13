@@ -491,7 +491,7 @@ div a{
 	color: black;
 }
 div a:hover{
-	color:rgb(216, 32, 32) ;
+	color:yellow ;
 }
 #logout{
 	margin-right:5%;
