@@ -450,7 +450,7 @@ label {
 #search-form a:hover {
 	background-color:#47b6e5;
 }
-#edit {
+#edit,#apply {
   color: black;
   padding: 10px 32px;
   text-align: center;
