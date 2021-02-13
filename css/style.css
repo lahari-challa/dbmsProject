@@ -18,6 +18,7 @@ html, body {
 	overflow:hidden;
 	font-size:.875em;
 	padding-bottom:176px;
+	margin-left: 13%;
 }
 header {
 	background:url(../images/header-bg.jpg) no-repeat center top;
@@ -493,8 +494,7 @@ div a:hover{
 	color:rgb(216, 32, 32) ;
 }
 #logout{
-	margin-right:170px;
-	padding-right: auto;
+	margin-right:5%;
 	text-align: right;	
 	font-weight: bold;
 	font-size: larger;
